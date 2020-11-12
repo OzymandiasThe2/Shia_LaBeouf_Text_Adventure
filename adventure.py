@@ -98,7 +98,6 @@ def beartrap_scene():
     answer = input(">")
 
     if answer == "1":
-        # lead him to the diamond_room()
         print("Gnawing off your leg (Quiet, quiet)"
               "\nLimping to the cottage (Quiet, quiet)"
               "\nNow you're on the doorstep")
@@ -138,7 +137,6 @@ def car_scene():
               "\nActual cannibal Shia LaBeouf")
         forest_scene()
     elif answer == "2":
-        # lead him to the diamond_room()
         game_over("Unsurprisingly, Shia bites you and kills you"
                   "\nYou have just been digested by Shia LaBeouf")
 
@@ -147,10 +145,8 @@ def car_scene():
         game_over("Incorrect answer. Shia has created a temporal wormhole of awesomeness causing the game to reset")
 
 
-# template room
 def cottage_scene():
     # some prompts
-    # '\n' is to print the line in a new line
     print("Sitting inside: Shia LaBeouf"
           "\nSharpening an axe (Shia LaBeouf)"
           "\nBut he doesn't hear you enter (Shia LaBeouf)")
@@ -159,7 +155,6 @@ def cottage_scene():
           "\n2). Assassinate Shia LaBeouf"
           "\n3). Run away")
 
-    # take input()
     answer = input(">")
 
     if answer == "1":
@@ -176,10 +171,8 @@ def cottage_scene():
         game_over("Incorrect answer. Shia has created a temporal wormhole of awesomeness causing the game to reset")
 
 
-# template room
 def strangle_scene():
     # some prompts
-    # '\n' is to print the line in a new line
     print("Strangling superstar Shia LaBeouf"
           "\nFighting for your life with Shia LaBeouf"
           "\nWrestling a knife from Shia LaBeouf"
@@ -189,7 +182,6 @@ def strangle_scene():
           "\n1). See if Shia is alive"
           "\n2). Run (limp) away from the scene")
 
-    # take input()
     answer = input(">")
 
     if answer == "1":
@@ -207,7 +199,6 @@ def strangle_scene():
 # template room
 def limp_scene():
     # some prompts
-    # '\n' is to print the line in a new line
     print("You limp into the dark woods"
           "\nBlood oozing from your stump leg"
           "\nBut you have won; you have beaten"
@@ -232,10 +223,8 @@ def limp_scene():
         game_over("Incorrect answer. Shia has created a temporal wormhole of awesomeness causing the game to reset")
 
 
-# template room
 def legendary_fight_scene():
     # some prompts
-    # '\n' is to print the line in a new line
     print("But you can do Jis Jitsu"
           "\nBody slam superstar Shia LaBeouf"
           "\nLegendary fight with Shia LaBeouf"
@@ -261,7 +250,6 @@ def legendary_fight_scene():
         game_over("Incorrect answer. Shia has created a temporal wormhole of awesomeness causing the game to reset")
 
 
-# template room
 def victory_scene():
     # some prompts
     # '\n' is to print the line in a new line
